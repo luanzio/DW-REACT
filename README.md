@@ -21,21 +21,20 @@ Configuração
 Para executar o projeto localmente:
 
 <h3>Clone o repositório:</h3>
-git clone https://github.com/seu-usuario/projeto-crud-usuarios.git
+git clone https://github.com/luanzio/DW-REACT.git
 Instale as dependências do backend e do frontend:
 
 
-cd projeto-crud-usuarios/backend
+cd DW-REACT/backend
 npm install
-cd ../frontend
+cd front
 npm install
 
 Inicie o servidor backend:
-cd ../backend
+cd api
 npm start
+
 Inicie o servidor frontend:
-
-
-cd ../frontend
-npm start
+cd DW-REACT/front
+npm run dev
 Acesse a aplicação em seu navegador através de http://localhost:5173.
